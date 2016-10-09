@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "47a6ce88d39c90f306d6"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "e533bae1ea2bca925eae"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -591,6 +591,7 @@
 	if (process.env.NODE_ENV !== 'production') {
 		__webpack_require__(298);
 	}
+
 	__webpack_require__(299);
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
@@ -8723,7 +8724,7 @@
 /* 298 */
 /***/ function(module, exports) {
 
-	module.exports = "<!DOCTYPE html>\n<html>\n<head>\n\t<title>Beautiful HTML</title>\n</head>\n<body>\n<h1>Beautiful heading one</h1>\n<h2>Beautiful heading two</h2>\n<h3>Beautiful heading three</h3>\n<h4>Beautiful heading four</h4>\n<h5>Beautiful heading five</h5>\n<h6>Beautiful heading six</h6>\n\n<p>This is a beautiful paragraph. Nullam id dolor id nibh ultricies vehicula ut id elit. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.\n\nCras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.\n\nNullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>\n\n<hr>\n\n<a href=\"/\">beautiful link</a>\n<em>emphasized (is this how you spell it?) text</em>\n<strong>strong text</strong>\n<del>deleted text</del>\n<ins>inserted text, whatever this might be</ins>\n<mark>mark text with no semantic meaning? cool.</mark>\n<q>inline quotations, what exactly is this beast</q>\n<dfn>definitions make me think of math</dfn>\n<small>small must be cute</small>\n\n<hr>\n\n<button type=\"button\">Actual useless button</button>\n<a href=\"/\" class=\"button\">Fake link button</a>\n<span class=\"button\">Fake no-link button</span>\n\n<hr>\n\n<blockquote>\n\t<p>Wrap the blockquote in a paragraph. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna.\n\t<p>\n\t<small>By Lorem Ipsum</small>\n</blockquote>\n\n<pre>\n\t<code>\n\t\t\tmagic.\n\t</code>\n</pre>\n\n<ul>\n    <li>Don't</li>\n    <li>We\n        <ul>\n            <li>All</li>\n            <li>Love</li>\n        </ul>\n    </li>\n    <li>Lists</li>\n</ul>\n\n<ol>\n    <li>Don't</li>\n    <li>We\n        <ol>\n            <li>All</li>\n            <li>Love</li>\n        </ol>\n    </li>\n    <li>Ordered</li>\n    <li>Lists</li>\n</ol>\n\n<dl>\n    <dt>Some nifty term.</dt>\n    <dd>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</dd>\n</dl>\n\n<script type=\"text/javascript\" src=\"bundle.js\"></script></body>\n</html>"
+	module.exports = "<!DOCTYPE html>\n<html>\n<head>\n\t<title>Beautiful HTML</title>\n</head>\n<body>\n<h1>Beautiful heading one</h1>\n<h2>Beautiful heading two</h2>\n<h3>Beautiful heading three</h3>\n<h4>Beautiful heading four</h4>\n<h5>Beautiful heading five</h5>\n<h6>Beautiful heading six</h6>\n\n<p>This is a beautiful paragraph. Nullam id dolor id nibh ultricies vehicula ut id elit. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.\n\nCras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.\n\nNullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>\n\n<hr>\n\n<a href=\"/\">beautiful link</a>\n<em>emphasized (is this how you spell it?) text</em>\n<strong>strong text</strong>\n<del>deleted text</del>\n<ins>inserted text, whatever this might be</ins>\n<mark>mark text with no semantic meaning? cool.</mark>\n<q>inline quotations, what exactly is this beast</q>\n<dfn>definitions make me think of math</dfn>\n<small>small must be cute</small>\n\n<hr>\n\n<button type=\"button\">Actual useless button</button>\n<a href=\"/\" class=\"button\">Fake link button</a>\n<span class=\"button\">Fake no-link button</span>\n\n<hr>\n\n<blockquote>\n\t<p>Wrap the blockquote in a paragraph. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna.\n\t<p>\n\t<small>By Lorem Ipsum</small>\n</blockquote>\n\n<pre>\n\t<code>\n\t\t\tmagic.\n\t</code>\n</pre>\n\n<ul>\n    <li>Don't</li>\n    <li>We\n        <ul>\n            <li>All</li>\n            <li>Love</li>\n        </ul>\n    </li>\n    <li>Lists</li>\n</ul>\n\n<ol>\n    <li>Don't</li>\n    <li>We\n        <ol>\n            <li>All</li>\n            <li>Love</li>\n        </ol>\n    </li>\n    <li>Ordered</li>\n    <li>Lists</li>\n</ol>\n\n<dl>\n    <dt>Some nifty term.</dt>\n    <dd>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</dd>\n</dl>\n\n<hr>\n\n<form action=\"https://example.microsoft.com/sample.asp\" method=\"post\">\n     <label for=\"name\">Name:</label>\n     <input id=\"name\"/><br/>\n     <label for=\"flavor\">Favorite ice cream flavor:</label>\n     <select id=\"flavor\">\n        <option value=\"Chocolate\">Chocolate</option>\n        <option value=\"Strawberry\">Strawberry</option>\n        <option value=\"Vanilla\" selected=\"selected\">Vanilla</option>\n     </select>\n     <input type=\"submit\"/>\n</form>\n\n<script type=\"text/javascript\" src=\"bundle.js\"></script></body>\n</html>"
 
 /***/ },
 /* 299 */
@@ -8732,17 +8733,17 @@
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(300);
+	var content = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"!!./../node_modules/css-loader/index.js!./../node_modules/sass-loader/index.js!./style.scss\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(302)(content, {});
+	var update = __webpack_require__(301)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(true) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
 			module.hot.accept(300, function() {
-				var newContent = __webpack_require__(300);
+				var newContent = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"!!./../node_modules/css-loader/index.js!./../node_modules/sass-loader/index.js!./style.scss\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -8752,77 +8753,8 @@
 	}
 
 /***/ },
-/* 300 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(301)();
-	// imports
-
-
-	// module
-	exports.push([module.id, "body {\n  background: lightgrey; }\n", ""]);
-
-	// exports
-
-
-/***/ },
+/* 300 */,
 /* 301 */
-/***/ function(module, exports) {
-
-	/*
-		MIT License http://www.opensource.org/licenses/mit-license.php
-		Author Tobias Koppers @sokra
-	*/
-	// css base code, injected by the css-loader
-	module.exports = function() {
-		var list = [];
-
-		// return the list of modules as css string
-		list.toString = function toString() {
-			var result = [];
-			for(var i = 0; i < this.length; i++) {
-				var item = this[i];
-				if(item[2]) {
-					result.push("@media " + item[2] + "{" + item[1] + "}");
-				} else {
-					result.push(item[1]);
-				}
-			}
-			return result.join("");
-		};
-
-		// import a list of modules into the list
-		list.i = function(modules, mediaQuery) {
-			if(typeof modules === "string")
-				modules = [[null, modules, ""]];
-			var alreadyImportedModules = {};
-			for(var i = 0; i < this.length; i++) {
-				var id = this[i][0];
-				if(typeof id === "number")
-					alreadyImportedModules[id] = true;
-			}
-			for(i = 0; i < modules.length; i++) {
-				var item = modules[i];
-				// skip already imported module
-				// this implementation is not 100% perfect for weird media query combinations
-				//  when a module is imported multiple times with different media queries.
-				//  I hope this will never occur (Hey this way we have smaller bundles)
-				if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
-					if(mediaQuery && !item[2]) {
-						item[2] = mediaQuery;
-					} else if(mediaQuery) {
-						item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
-					}
-					list.push(item);
-				}
-			}
-		};
-		return list;
-	};
-
-
-/***/ },
-/* 302 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*

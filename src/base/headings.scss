@@ -1,0 +1,42 @@
+$step-size-heading: 1/2;	//reduce each heading by
+$amplifier-heading: 2;	//amplify value
+
+@mixin heading-size($size) {
+    font-size: $size * $step-size-heading * $amplifier-heading + rem;
+}
+
+$context-font: (
+	body: 1,
+	header: 1,
+	article: 0.67,
+	footer: 0.5,
+	aside: 0.33
+);
+
+@each $element, $value in $context-font {
+	#{$element} {
+		h1 {
+			@include heading-size(6 * $value);
+		}
+
+		h2 {
+			@include heading-size(5 * $value);
+		}
+
+		h3 {
+			@include heading-size(4 * $value);
+		}
+
+		h4 {
+			@include heading-size(3 * $value);
+		}
+
+		h5 {
+			@include heading-size(2 * $value);
+		}
+
+		h6 {
+			@include heading-size(1 * $value);
+		}
+	}
+}

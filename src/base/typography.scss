@@ -1,0 +1,41 @@
+@import "headings";
+
+* {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+
+  	font-family: inherit;
+  	font-size: inherit;
+}
+
+:root {
+	font-family: serif;
+	font-size: (100% / 1.6);	//1rem = 10px
+}
+
+body {
+	font-size: 2rem;
+	line-height: 1.5;
+
+	color: $text-color;
+}
+
+a {
+	color: $link-color;
+
+	text-decoration: none;
+	border-bottom: 1px solid rgba($link-color, .3);
+
+	transition: color $basic-ease, border-bottom-color $basic-ease;
+
+	&:visited {
+		color: darken($link-color, 5);
+	}
+
+	&:hover,
+	&:active {
+		color: darken($link-color, 10);
+		border-bottom-color: $link-color;
+	}
+}
