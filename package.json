@@ -1,0 +1,36 @@
+{
+  "name": "svetlanapak",
+  "version": "1.0.0",
+  "description": "Playground",
+  "main": "app.js",
+  "scripts": {
+    "dev": "npm run clean && webpack --progress --colors --config dev.config.babel.js && webpack-dev-server --inline --config prod.config.babel.js",
+    "build": "npm run clean && webpack --progress -p --config webpack.config.prod.js",
+    "clean": "rimraf ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svetlanapak/svetlanapak.github.io.git"
+  },
+  "author": "Svetlana Pak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svetlanapak/svetlanapak.github.io/issues"
+  },
+  "homepage": "https://github.com/svetlanapak/svetlanapak.github.io#readme",
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "html-webpack-plugin": "^2.22.0",
+    "node-sass": "^3.10.1",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
