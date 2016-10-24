@@ -2,82 +2,217 @@
 <html>
 <head>
 	<title>Beautiful HTML</title>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
 </head>
+
 <body>
-<h1>Beautiful heading one</h1>
-<h2>Beautiful heading two</h2>
-<h3>Beautiful heading three</h3>
-<h4>Beautiful heading four</h4>
-<h5>Beautiful heading five</h5>
-<h6>Beautiful heading six</h6>
 
-<p>This is a beautiful paragraph. Nullam id dolor id nibh ultricies vehicula ut id elit. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.
+<div class="book book--usp">
+    <span class="book__usp usp">Two time dimensions, one love</span>
+    <div class="book__cover">
+        <img class="cover-img" src="./images/book.png">
+    </div>
+</div>
 
-Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<div class="ui button">
+    <i class="download icon"></i>
+    <span>Download info in pdf</span>
+</div>
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+<div class="share">
+    <span>Share:</span>
+    <button class="ui button circular icon facebook"">
+        <i class="facebook icon"></i>
+    </button>
+    <button class="ui button circular icon twitter">
+        <i class="twitter icon"></i>
+    </button>
+</div>
 
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<span class="categories">Graphic novels, Subcategory</span>
+<h2>The Man of Now</h2>
 
-<hr>
-
-<a href="/">beautiful link</a>
-<em>emphasized (is this how you spell it?) text</em>
-<strong>strong text</strong>
-<del>deleted text</del>
-<ins>inserted text, whatever this might be</ins>
-<mark>mark text with no semantic meaning? cool.</mark>
-<q>inline quotations, what exactly is this beast</q>
-<dfn>definitions make me think of math</dfn>
-<small>small must be cute</small>
-
-<hr>
-
-<button type="button">Actual useless button</button>
-<a href="/" class="button">Fake link button</a>
-<span class="button">Fake no-link button</span>
-
-<hr>
+<p>Rafael Fallstaf falls hopelessly in love with Sylvia. She, a woman in a wheelchair, lives in our own time, whereas he lives in a time dimension that moves so fast we seem to be standing still. People who live ten billion times faster look at us as tableaux in a museum. Rafael therefore falls in love with a woman who always remains seated in the same position. The result is a bizarre tragedy about an unrequited and disastrous love.</p>
 
 <blockquote>
-	<p>Wrap the blockquote in a paragraph. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna.
-	<p>
-	<small>By Lorem Ipsum</small>
+    We weren't born yesterday; this is the comic of tomorrow!
+    <cite>- Stripspeciaalzaak</cite>
 </blockquote>
 
-<pre>
-	<code>
-			magic.
-	</code>
-</pre>
+<p>The Man of Now is an ultramodern Romeo and Juliet that takes place in two different time dimensions. Dutch artist Hanco Kolk and Fleming Kim Duchateau each tackle one dimension. There is just enough friction between the two styles of drawing to maintain the tension. Kolk and Duchateau clearly enjoy playing with established clich&eacute;s about time and space. After the devastating climax you have the disturbing feeling that in your own room there may be people who can see you even though you can't see them.</p>
 
-<ul>
-    <li>Don't</li>
-    <li>We
-        <ul>
-            <li>All</li>
-            <li>Love</li>
-        </ul>
-    </li>
-    <li>Lists</li>
-</ul>
+<h3>Contact</h3>
 
-<ol>
-    <li>Don't</li>
-    <li>We
-        <ol>
-            <li>All</li>
-            <li>Love</li>
-        </ol>
-    </li>
-    <li>Ordered</li>
-    <li>Lists</li>
-</ol>
+<div class="profile">
+    <div class="profile__image profile-image">
+        <img class="profile-image__img" src="./images/matthew.png"> 
+    </div>
+    <div class="profile__info">
+        <span class="profile__name">Naam Voornaam</span>
+        <span class="profile__function">Responsible children's and youth literature and graphic novels</span>
+        <span class="profile__email">
+            <i class="mail icon"></i>
+            naam-voornaam@vfl.eu
+        </span>
+        <span class="profile__phone">
+            <i class="phone icon"></i>
+            +32 478 34 10 91
+        </span>
+        <span class="profile__extra">Not reachable in the afternoon.</span>
+    </div>
+</div>
 
-<dl>
-    <dt>Some nifty term.</dt>
-    <dd>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</dd>
-</dl>
+<h3>Authors</h3>
 
-<script type="text/javascript" src="dist/bundle.js"></script></body>
+<div class="profile">
+    <div class="profile__image profile-image">
+        <img class="profile-image__img" src="./images/matthew.png"> 
+    </div>
+    <div class="profile__info profile__info--author">
+        <span class="profile__name">Naam Voornaam</span>
+    </div>
+</div>
+
+<div class="profile">
+    <div class="profile__image profile-image">
+        <img class="profile-image__img" src="./images/matthew.png"> 
+    </div>
+    <div class="profile__info profile__info--author">
+        <span class="profile__name">Naam Voornaam</span>
+    </div>
+</div>
+
+<h3>Meta</h3>
+
+<h4>Original title</h4>
+<p>De man van nu (May 2016, Blloan/De Harmonie, 144 pp.)</p>
+
+<h4>Format</h4>
+<p>200*265</p>
+
+<h4>Rights</h4>
+<p>Elsbeth Louis - elouis@deharmonie.nl</p>
+
+<h4>Grants</h4>
+<p>Els Aerts - els@vfl.be</p>
+
+<div class="ui divider"></div>
+
+<h3>Recent graphic novels</h3>
+<div class="books">
+    <div class="book book--usp">
+        <span class="book__usp usp">Two time dimensions, one love</span>
+        <div class="book__cover">
+            <img class="cover-img" src="./images/book.png">
+        </div>
+    </div>
+    <div class="book book--usp">
+        <span class="book__usp usp">Two time dimensions, one love</span>
+        <div class="book__cover">
+            <img class="cover-img" src="./images/book.png">
+        </div>
+    </div>
+    <div class="book book--usp">
+        <span class="book__usp usp">Two time dimensions, one love</span>
+        <div class="book__cover">
+            <img class="cover-img" src="./images/book.png">
+        </div>
+    </div>
+    <div class="book book--usp">
+        <span class="book__usp usp">Two time dimensions, one love</span>
+        <div class="book__cover">
+            <img class="cover-img" src="./images/book.png">
+        </div>
+    </div>
+    <div class="book book--usp">
+        <span class="book__usp usp">Two time dimensions, one love</span>
+        <div class="book__cover">
+            <img class="cover-img" src="./images/book.png">
+        </div>
+    </div>
+    <div class="book book--usp">
+        <span class="book__usp usp">Two time dimensions, one love</span>
+        <div class="book__cover">
+            <img class="cover-img" src="./images/book.png">
+        </div>
+    </div>
+    <div class="book book--usp">
+        <span class="book__usp usp">Two time dimensions, one love</span>
+        <div class="book__cover">
+            <img class="cover-img" src="./images/book.png">
+        </div>
+    </div>
+    <div class="book book--usp">
+        <span class="book__usp usp">Two time dimensions, one love</span>
+        <div class="book__cover">
+            <img class="cover-img" src="./images/book.png">
+        </div>
+    </div>
+    <div class="book book--usp">
+        <span class="book__usp usp">Two time dimensions, one love</span>
+        <div class="book__cover">
+            <img class="cover-img" src="./images/book.png">
+        </div>
+    </div>
+    <div class="book book--usp">
+        <span class="book__usp usp">Two time dimensions, one love</span>
+        <div class="book__cover">
+            <img class="cover-img" src="./images/book.png">
+        </div>
+    </div>
+    <div class="book book--usp">
+        <span class="book__usp usp">Two time dimensions, one love</span>
+        <div class="book__cover">
+            <img class="cover-img" src="./images/book.png">
+        </div>
+    </div>
+</div>
+
+<div class="ui divider"></div>
+
+<h3>Recent news about graphic novels</h3>
+
+<div class="news-teasers">
+    
+    <div class="news">
+        <div class="news__image">
+            <span class="news__tag tag">Auteur in het buitenland</span>
+            <img class="news__img" src="./images/news.png">
+        </div>
+        <span class="categories">Graphic novels, Subcategory</span>
+        <h4>Subsidiereglementen werkbeurzen literaire en stripauteurs online</h4>
+        <span>Now</span>
+    </div>
+    <div class="news">
+        <div class="news__image">
+            <span class="news__tag tag">Auteur in het buitenland</span>
+            <img class="news__img" src="./images/news.png">
+        </div>
+        <span class="categories">Graphic novels, Subcategory</span>
+        <h4>Subsidiereglementen werkbeurzen literaire en stripauteurs online</h4>
+        <span>Now</span>
+    </div>
+    <div class="news">
+        <div class="news__image">
+            <span class="news__tag tag">Auteur in het buitenland</span>
+            <img class="news__img" src="./images/news.png">
+        </div>
+        <span class="categories">Graphic novels, Subcategory</span>
+        <h4>Subsidiereglementen werkbeurzen literaire en stripauteurs online</h4>
+        <span>Now</span>
+    </div>
+    <div class="news">
+        <div class="news__image">
+            <span class="news__tag tag">Auteur in het buitenland</span>
+            <img class="news__img" src="./images/news.png">
+        </div>
+        <span class="categories">Graphic novels, Subcategory</span>
+        <h4>Subsidiereglementen werkbeurzen literaire en stripauteurs online</h4>
+        <span>Now</span>
+    </div>
+
+</div>
+
+<script src="semantic/dist/semantic.min.js"></script>
+</body>
 </html>
